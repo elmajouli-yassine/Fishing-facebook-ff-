@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="pageTitle">Facebook - Connexion ou inscription</title>
+    <link rel="stylesheet" href="c:users\user\facebook.css">
+    <script src="https://kit.fontawesome.com/4da40a6f64.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="_1gax"><i class="img sp_vxiiSmFDFzJ sx_310f7b"></i></div>
+    <section class="container">
+        <div class="title">
+                <a href="https://fr-fr.facebook.com/" target="_blank"><img src="C:\Users\user\Downloads\Capture_d_écran_2024-08-24_235452-removebg-preview.png" ></a>
+                <p>Avec Facebook, partagez et restez en contact avec votre entourage.</p></div>
+            <form class="formulaire">
+                <input type="email" placeholder="adresse e-mail ou numéro de téléphone" required>
+                <input type="password" placeholder="Mot de passe" required>
+                <input type="submit" value="se connecter" class="btn-sumit" style="background-color: #3b5998;color: #fff;">
+                <a href="" class="mdp-oublie">Mot de passe oublié ?</a>
+                <hr>
+                <a href="#" onclick="afficher()" class="btn-inscription">Crée nouveau compte</a>
+            </form>
+    </section>
+    <section class="inscription">
+        <form action="c:\users\user\onedrive\desktop\html\face.php" method="post">
+            <i onclick="afficher()" class="fa-solid fa-xmark"></i>
+            <h1>S'inscrire</h1>
+            <h4>C'est rapide et facile</h4>
+            <hr>
+            <p>
+            <div class="input-nom-prenom">
+                <input type="text" class="num-mdp" name="prenom" placeholder="prenom">
+                <input type="text" class="num-mdp" name="nom" placeholder="nom">
+            </div></p>
+            <p>
+            <input type="email" class="num-mdp" placeholder="Numero de mobile ou e-mail" required>
+            <input type="password" class="num-mdp" placeholder="Nouveau mot de passe" required></p>
+            <p class="label-class">Date de naissance</p>
+            <div class="date-naissance-select">
+                <select>
+                    <option >1</option>
+                    <option >2</option>
+                    <option >3</option>
+                    <option >4</option>
+                    <option >5</option>
+                    <option >6</option>
+                    <option >7</option>
+                    <option >8</option>
+                    <option >9</option>
+                    <option >10</option>
+                    <option >11</option>
+                    <option >12</option>
+                    <option >13</option>
+                    <option >14</option>
+                    <option >15</option>
+                    <option >16</option>
+                    <option >17</option>
+                    <option >18</option>
+                    <option >19</option>
+                    <option >20</option>
+                    <option >21</option>
+                    <option >22</option>
+                    <option >23</option>
+                    <option >24</option>
+                    <option >25</option>
+                    <option >26</option>
+                    <option >27</option>
+                    <option >28</option>
+                    <option >29</option>
+                    <option >30</option>
+                    <option >31</option>
+                </select>
+                <select >
+                    <option>jan</option>
+                    <OPtion>fev</OPtion>
+                    <option >mar</option>
+                    <option >avr</option>
+                    <option >mai</option>
+                    <option >jui</option>
+                    <option >juil</option>
+                    <option >aoute</option>
+                    <option >sep</option>
+                    <option >oct</option>
+                    <option >nov</option>
+                    <option >dec</option>
+                </select>
+                <select>
+                    <option>2024</option>
+                    <OPtion>2023</OPtion>
+                    <option value="">2022</option>
+                    <option value="">2021</option>
+                    <option value="">2020</option>
+                    <option value="">2019</option>
+                    <option value="">2018</option>
+                    <option value="">2017</option>
+                    <option value="">2016</option>
+                    <option value="">2015</option>
+                    <option value="">2014</option>
+                    <option value="">2013</option>
+                    <option value="">2012</option>
+                    <option value="">2011</option>
+                    <option value="">2010</option>
+                    <option value="">2009</option>
+                    <option value="">2008</option>
+                    <option value="">2007</option>
+                    <option value="">2006</option>
+                    <option value="">2005</option>
+                    <option value="">2004</option>
+                    <option value="">2003</option>
+                    <option value="">2002</option>
+                    <option value="">2001</option>
+                    <option value="">2000</option>
+                    <option value="">1999</option>
+                    <option value="">1998</option>
+                    <option value="">1997</option>
+                </select>
+            </div>
+            <p class="label-class">Genre</p>
+            <div class="genres_liste">
+            <span>
+                <label >Femme</label>
+                <input type="radio" name="genre">
+            </span>
+            <span>
+                <label>Homme</label>
+                <input type="radio" name="genre">
+            </span>
+            <span >
+                <label>Personalisé</label>
+                <input type="radio" name="genre">
+            </span>
+        </div>
+        <div class="texte">
+            <p>En cliquant sur S'inscire, vous acceptez nos conditions générales. Découvrez comment nous receuillon</p>
+        </div>
+        <div class="center-btn-submit">
+            <input type="submit" value="S'inscrire" id="btn-s-inscrire">
+        </div>
+        </form>
+    </section>
+
+    <script>
+        function afficher(){
+            document.querySelector('.inscription').classList.toggle('active')
+        }
+    </script>
+    <P class="texte-btn"><a href="#" onclick="afficher()"><b style="color: #000;">Créer une Page</b></a> pour une célébrité, une marque ou <br> une entreprise.</P>
+
+</body>
+</html>
